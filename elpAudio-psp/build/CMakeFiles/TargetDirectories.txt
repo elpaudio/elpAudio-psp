@@ -1,0 +1,3 @@
+/home/elpoep/projects/elpAudio-psp/build/CMakeFiles/elpAudio-psp.dir
+/home/elpoep/projects/elpAudio-psp/build/CMakeFiles/edit_cache.dir
+/home/elpoep/projects/elpAudio-psp/build/CMakeFiles/rebuild_cache.dir
