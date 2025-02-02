@@ -83,5 +83,6 @@ extern "C" int main(int argc, char* args[]) {
     delete[] window;
     delete[] ea_font1;
     delete[] ea_font2;
+    delete[] ea_font3;
     return 0;
 }
