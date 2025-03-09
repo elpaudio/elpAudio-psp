@@ -1,7 +1,15 @@
 CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: \
  /home/elpoep/projects/elpAudio-psp/src/main.cpp \
  /home/elpoep/projects/elpAudio-psp/src/main.h \
- /home/elpoep/pspdev/psp/include/stdio.h \
+ /home/elpoep/projects/elpAudio-psp/src/gamebreaker.hpp \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_main.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_stdinc.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_config.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_platform.h \
+ /home/elpoep/pspdev/psp/include/SDL2/begin_code.h \
+ /home/elpoep/pspdev/psp/include/SDL2/close_code.h \
+ /home/elpoep/pspdev/psp/include/sys/types.h \
  /home/elpoep/pspdev/psp/include/_ansi.h \
  /home/elpoep/pspdev/psp/include/newlib.h \
  /home/elpoep/pspdev/psp/include/_newlib_version.h \
@@ -11,31 +19,8 @@ CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: \
  /home/elpoep/pspdev/psp/include/sys/cdefs.h \
  /home/elpoep/pspdev/psp/include/machine/_default_types.h \
  /home/elpoep/pspdev/lib/gcc/psp/14.1.0/include/stddef.h \
- /home/elpoep/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
- /home/elpoep/pspdev/psp/include/sys/reent.h \
- /home/elpoep/pspdev/psp/include/_ansi.h \
- /home/elpoep/pspdev/psp/include/sys/_types.h \
  /home/elpoep/pspdev/psp/include/machine/_types.h \
- /home/elpoep/pspdev/psp/include/sys/lock.h \
- /home/elpoep/pspdev/psp/include/sys/stdio.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/stdlib.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/cstdlib \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/c++config.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/os_defines.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/cpu_defines.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/pstl/pstl_config.h \
- /home/elpoep/pspdev/psp/include/stdlib.h \
- /home/elpoep/pspdev/psp/include/machine/stdlib.h \
- /home/elpoep/pspdev/psp/include/alloca.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/std_abs.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL_main.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL_stdinc.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL_config.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL_platform.h \
- /home/elpoep/pspdev/psp/include/SDL2/begin_code.h \
- /home/elpoep/pspdev/psp/include/SDL2/close_code.h \
- /home/elpoep/pspdev/psp/include/sys/types.h \
+ /home/elpoep/pspdev/psp/include/sys/_types.h \
  /home/elpoep/pspdev/psp/include/sys/_stdint.h \
  /home/elpoep/pspdev/psp/include/machine/endian.h \
  /home/elpoep/pspdev/psp/include/machine/_endian.h \
@@ -52,6 +37,22 @@ CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: \
  /home/elpoep/pspdev/psp/include/sys/syslimits.h \
  /home/elpoep/pspdev/psp/include/sys/sched.h \
  /home/elpoep/pspdev/psp/include/machine/types.h \
+ /home/elpoep/pspdev/psp/include/stdio.h \
+ /home/elpoep/pspdev/psp/include/_ansi.h \
+ /home/elpoep/pspdev/lib/gcc/psp/14.1.0/include/stdarg.h \
+ /home/elpoep/pspdev/psp/include/sys/reent.h \
+ /home/elpoep/pspdev/psp/include/sys/lock.h \
+ /home/elpoep/pspdev/psp/include/sys/stdio.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/stdlib.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/cstdlib \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/c++config.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/os_defines.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/psp/bits/cpu_defines.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/pstl/pstl_config.h \
+ /home/elpoep/pspdev/psp/include/stdlib.h \
+ /home/elpoep/pspdev/psp/include/machine/stdlib.h \
+ /home/elpoep/pspdev/psp/include/alloca.h \
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/std_abs.h \
  /home/elpoep/pspdev/psp/include/string.h \
  /home/elpoep/pspdev/psp/include/sys/_locale.h \
  /home/elpoep/pspdev/psp/include/strings.h \
@@ -147,22 +148,16 @@ CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: \
  /home/elpoep/pspdev/psp/include/SDL2/SDL_version.h \
  /home/elpoep/pspdev/psp/include/SDL2/SDL_locale.h \
  /home/elpoep/pspdev/psp/include/SDL2/SDL_misc.h \
- /home/elpoep/pspdev/psp/include/SDL2/SDL_mixer.h \
  /home/elpoep/pspdev/psp/include/SDL2/SDL_image.h \
  /home/elpoep/pspdev/psp/include/SDL2/SDL.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_mixer.h \
+ /home/elpoep/pspdev/psp/include/SDL2/SDL_stdinc.h \
  /home/elpoep/pspdev/psp/include/SDL2/SDL_ttf.h \
- /home/elpoep/pspdev/psp/include/curl/curl.h \
- /home/elpoep/pspdev/psp/include/curl/curlver.h \
- /home/elpoep/pspdev/psp/include/curl/system.h \
- /home/elpoep/pspdev/psp/sdk/include/sys/socket.h \
+ /home/elpoep/pspdev/psp/include/dirent.h \
+ /home/elpoep/pspdev/psp/include/sys/dirent.h \
+ /home/elpoep/pspdev/psp/include/sys/stat.h \
  /home/elpoep/pspdev/psp/include/time.h \
  /home/elpoep/pspdev/psp/include/machine/time.h \
- /home/elpoep/pspdev/psp/include/sys/time.h \
- /home/elpoep/pspdev/psp/include/machine/_time.h \
- /home/elpoep/pspdev/psp/include/curl/easy.h \
- /home/elpoep/pspdev/psp/include/curl/multi.h \
- /home/elpoep/pspdev/psp/include/curl/curl.h \
- /home/elpoep/pspdev/psp/include/curl/urlapi.h \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/string \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/stringfwd.h \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/memoryfwd.h \
@@ -212,11 +207,4 @@ CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/stl_uninitialized.h \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/stl_vector.h \
  /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/stl_bvector.h \
- /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/vector.tcc \
- /home/elpoep/projects/elpAudio-psp/src/maths.h \
- /home/elpoep/projects/elpAudio-psp/src/sounds.h \
- /home/elpoep/projects/elpAudio-psp/src/controls.h \
- /home/elpoep/projects/elpAudio-psp/src/images.h \
- /home/elpoep/projects/elpAudio-psp/src/prepare.h \
- /home/elpoep/projects/elpAudio-psp/src/https_api.h \
- /home/elpoep/projects/elpAudio-psp/src/levels.h
+ /home/elpoep/pspdev/psp/include/c++/14.1.0/bits/vector.tcc

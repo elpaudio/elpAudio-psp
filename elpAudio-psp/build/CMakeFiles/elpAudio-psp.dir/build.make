@@ -69,52 +69,24 @@ include CMakeFiles/elpAudio-psp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/elpAudio-psp.dir/flags.make
 
-CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/controls.cpp
-CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/controls.cpp
+CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
+CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/gamebreaker.cpp
+CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj"
+	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/gamebreaker.cpp
 
-CMakeFiles/elpAudio-psp.dir/src/controls.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/controls.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/controls.cpp > CMakeFiles/elpAudio-psp.dir/src/controls.cpp.i
+CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.i"
+	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/gamebreaker.cpp > CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.i
 
-CMakeFiles/elpAudio-psp.dir/src/controls.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/controls.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/controls.cpp -o CMakeFiles/elpAudio-psp.dir/src/controls.cpp.s
-
-CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/images.cpp
-CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/images.cpp
-
-CMakeFiles/elpAudio-psp.dir/src/images.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/images.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/images.cpp > CMakeFiles/elpAudio-psp.dir/src/images.cpp.i
-
-CMakeFiles/elpAudio-psp.dir/src/images.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/images.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/images.cpp -o CMakeFiles/elpAudio-psp.dir/src/images.cpp.s
-
-CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/levels.cpp
-CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/levels.cpp
-
-CMakeFiles/elpAudio-psp.dir/src/levels.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/levels.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/levels.cpp > CMakeFiles/elpAudio-psp.dir/src/levels.cpp.i
-
-CMakeFiles/elpAudio-psp.dir/src/levels.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/levels.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/levels.cpp -o CMakeFiles/elpAudio-psp.dir/src/levels.cpp.s
+CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.s"
+	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/gamebreaker.cpp -o CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.s
 
 CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
 CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/main.cpp
 CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj"
 	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/main.cpp
 
 CMakeFiles/elpAudio-psp.dir/src/main.cpp.i: cmake_force
@@ -125,71 +97,19 @@ CMakeFiles/elpAudio-psp.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/main.cpp.s"
 	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/main.cpp -o CMakeFiles/elpAudio-psp.dir/src/main.cpp.s
 
-CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/maths.cpp
-CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/maths.cpp
-
-CMakeFiles/elpAudio-psp.dir/src/maths.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/maths.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/maths.cpp > CMakeFiles/elpAudio-psp.dir/src/maths.cpp.i
-
-CMakeFiles/elpAudio-psp.dir/src/maths.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/maths.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/maths.cpp -o CMakeFiles/elpAudio-psp.dir/src/maths.cpp.s
-
-CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/prepare.cpp
-CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/prepare.cpp
-
-CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/prepare.cpp > CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.i
-
-CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/prepare.cpp -o CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.s
-
-CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj: CMakeFiles/elpAudio-psp.dir/flags.make
-CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj: /home/elpoep/projects/elpAudio-psp/src/sounds.cpp
-CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj: CMakeFiles/elpAudio-psp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj -MF CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj.d -o CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj -c /home/elpoep/projects/elpAudio-psp/src/sounds.cpp
-
-CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.i"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elpoep/projects/elpAudio-psp/src/sounds.cpp > CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.i
-
-CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.s"
-	/home/elpoep/pspdev/bin/psp-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elpoep/projects/elpAudio-psp/src/sounds.cpp -o CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.s
-
 # Object files for target elpAudio-psp
 elpAudio__psp_OBJECTS = \
-"CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj" \
-"CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj"
+"CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj" \
+"CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj"
 
 # External object files for target elpAudio-psp
 elpAudio__psp_EXTERNAL_OBJECTS =
 
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj
+elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj
 elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/main.cpp.obj
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj
-elpAudio-psp: CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj
 elpAudio-psp: CMakeFiles/elpAudio-psp.dir/build.make
 elpAudio-psp: CMakeFiles/elpAudio-psp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable elpAudio-psp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable elpAudio-psp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elpAudio-psp.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E cmake_echo_color --cyan Not\ stripping\ binary\ for\ target\ elpAudio-psp,\ build\ type\ is\ .
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Calling psp-fixup-imports for target elpAudio-psp"

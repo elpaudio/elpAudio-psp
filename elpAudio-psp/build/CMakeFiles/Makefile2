@@ -81,12 +81,12 @@ clean: CMakeFiles/elpAudio-psp.dir/clean
 CMakeFiles/elpAudio-psp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target elpAudio-psp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/elpoep/projects/elpAudio-psp/build/CMakeFiles --progress-num=1,2,3 "Built target elpAudio-psp"
 .PHONY : CMakeFiles/elpAudio-psp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/elpAudio-psp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elpoep/projects/elpAudio-psp/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elpoep/projects/elpAudio-psp/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/elpAudio-psp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/elpoep/projects/elpAudio-psp/build/CMakeFiles 0
 .PHONY : CMakeFiles/elpAudio-psp.dir/rule

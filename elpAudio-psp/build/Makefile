@@ -129,77 +129,29 @@ elpAudio-psp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/build
 .PHONY : elpAudio-psp/fast
 
-src/controls.obj: src/controls.cpp.obj
-.PHONY : src/controls.obj
+src/gamebreaker.obj: src/gamebreaker.cpp.obj
+.PHONY : src/gamebreaker.obj
 
 # target to build an object file
-src/controls.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/controls.cpp.obj
-.PHONY : src/controls.cpp.obj
+src/gamebreaker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.obj
+.PHONY : src/gamebreaker.cpp.obj
 
-src/controls.i: src/controls.cpp.i
-.PHONY : src/controls.i
-
-# target to preprocess a source file
-src/controls.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/controls.cpp.i
-.PHONY : src/controls.cpp.i
-
-src/controls.s: src/controls.cpp.s
-.PHONY : src/controls.s
-
-# target to generate assembly for a file
-src/controls.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/controls.cpp.s
-.PHONY : src/controls.cpp.s
-
-src/images.obj: src/images.cpp.obj
-.PHONY : src/images.obj
-
-# target to build an object file
-src/images.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/images.cpp.obj
-.PHONY : src/images.cpp.obj
-
-src/images.i: src/images.cpp.i
-.PHONY : src/images.i
+src/gamebreaker.i: src/gamebreaker.cpp.i
+.PHONY : src/gamebreaker.i
 
 # target to preprocess a source file
-src/images.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/images.cpp.i
-.PHONY : src/images.cpp.i
+src/gamebreaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.i
+.PHONY : src/gamebreaker.cpp.i
 
-src/images.s: src/images.cpp.s
-.PHONY : src/images.s
-
-# target to generate assembly for a file
-src/images.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/images.cpp.s
-.PHONY : src/images.cpp.s
-
-src/levels.obj: src/levels.cpp.obj
-.PHONY : src/levels.obj
-
-# target to build an object file
-src/levels.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/levels.cpp.obj
-.PHONY : src/levels.cpp.obj
-
-src/levels.i: src/levels.cpp.i
-.PHONY : src/levels.i
-
-# target to preprocess a source file
-src/levels.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/levels.cpp.i
-.PHONY : src/levels.cpp.i
-
-src/levels.s: src/levels.cpp.s
-.PHONY : src/levels.s
+src/gamebreaker.s: src/gamebreaker.cpp.s
+.PHONY : src/gamebreaker.s
 
 # target to generate assembly for a file
-src/levels.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/levels.cpp.s
-.PHONY : src/levels.cpp.s
+src/gamebreaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/gamebreaker.cpp.s
+.PHONY : src/gamebreaker.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -225,78 +177,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/maths.obj: src/maths.cpp.obj
-.PHONY : src/maths.obj
-
-# target to build an object file
-src/maths.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/maths.cpp.obj
-.PHONY : src/maths.cpp.obj
-
-src/maths.i: src/maths.cpp.i
-.PHONY : src/maths.i
-
-# target to preprocess a source file
-src/maths.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/maths.cpp.i
-.PHONY : src/maths.cpp.i
-
-src/maths.s: src/maths.cpp.s
-.PHONY : src/maths.s
-
-# target to generate assembly for a file
-src/maths.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/maths.cpp.s
-.PHONY : src/maths.cpp.s
-
-src/prepare.obj: src/prepare.cpp.obj
-.PHONY : src/prepare.obj
-
-# target to build an object file
-src/prepare.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.obj
-.PHONY : src/prepare.cpp.obj
-
-src/prepare.i: src/prepare.cpp.i
-.PHONY : src/prepare.i
-
-# target to preprocess a source file
-src/prepare.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.i
-.PHONY : src/prepare.cpp.i
-
-src/prepare.s: src/prepare.cpp.s
-.PHONY : src/prepare.s
-
-# target to generate assembly for a file
-src/prepare.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/prepare.cpp.s
-.PHONY : src/prepare.cpp.s
-
-src/sounds.obj: src/sounds.cpp.obj
-.PHONY : src/sounds.obj
-
-# target to build an object file
-src/sounds.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.obj
-.PHONY : src/sounds.cpp.obj
-
-src/sounds.i: src/sounds.cpp.i
-.PHONY : src/sounds.i
-
-# target to preprocess a source file
-src/sounds.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.i
-.PHONY : src/sounds.cpp.i
-
-src/sounds.s: src/sounds.cpp.s
-.PHONY : src/sounds.s
-
-# target to generate assembly for a file
-src/sounds.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/elpAudio-psp.dir/build.make CMakeFiles/elpAudio-psp.dir/src/sounds.cpp.s
-.PHONY : src/sounds.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -306,27 +186,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... elpAudio-psp"
-	@echo "... src/controls.obj"
-	@echo "... src/controls.i"
-	@echo "... src/controls.s"
-	@echo "... src/images.obj"
-	@echo "... src/images.i"
-	@echo "... src/images.s"
-	@echo "... src/levels.obj"
-	@echo "... src/levels.i"
-	@echo "... src/levels.s"
+	@echo "... src/gamebreaker.obj"
+	@echo "... src/gamebreaker.i"
+	@echo "... src/gamebreaker.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/maths.obj"
-	@echo "... src/maths.i"
-	@echo "... src/maths.s"
-	@echo "... src/prepare.obj"
-	@echo "... src/prepare.i"
-	@echo "... src/prepare.s"
-	@echo "... src/sounds.obj"
-	@echo "... src/sounds.i"
-	@echo "... src/sounds.s"
 .PHONY : help
 
 
